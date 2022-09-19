@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
 body {
     background: #f9fafe;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
 }
 
 .profile-image {
@@ -7,6 +11,10 @@ body {
     height: 3rem;
     margin-right: 10px;
 }
+
+/* .noti-content {
+    color: #959ba7;
+} */
 
 .title {
     font-weight: 700;
@@ -18,8 +26,7 @@ body {
 }
 
 .name:hover {
-    color: #002365;
-
+    color: #043080;
 }
 
 .badge-noti {
@@ -93,6 +100,7 @@ body {
 
 @media (max-width: 575.98px) {
     .mob-card {
-        width: 90% !important;
+        width: 100% !important;
+        margin: 0px !important;
     }
 }
