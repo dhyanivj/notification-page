@@ -4,6 +4,7 @@ body {
 
 .profile-image {
     width: 3rem;
+    height: 3rem;
     margin-right: 10px;
 }
 
@@ -13,6 +14,12 @@ body {
 
 .name {
     font-weight: 700;
+    cursor: pointer;
+}
+
+.name:hover {
+    color: #002365;
+
 }
 
 .badge-noti {
@@ -49,7 +56,43 @@ body {
     background: #f6fafd;
 }
 
+.msg-card:hover {
+    background: #ecf7ff;
+    cursor: pointer;
+}
+
 .blue-text {
     color: #002365;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.chess-img:hover {
+    border: 3px solid #d2ebff;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0px;
+
+}
+
+.chess-img {
+    padding: 3px;
+}
+
+.bold-grey:hover,
+.read-text:hover {
+    color: #002365;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+/* Mobile CSS */
+
+@media (max-width: 575.98px) {
+    .mob-card {
+        width: 90% !important;
+    }
 }
