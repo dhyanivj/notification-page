@@ -7,6 +7,10 @@ body {
     margin-right: 10px;
 }
 
+.title {
+    font-weight: 700;
+}
+
 .name {
     font-weight: 700;
 }
