@@ -1,0 +1,51 @@
+body {
+    background: #f9fafe;
+}
+
+.profile-image {
+    width: 3rem;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.badge-noti {
+    background: #062a68;
+    color: white;
+}
+
+.read-text {
+    color: grey;
+    text-decoration: none;
+}
+
+.noti {
+    padding: 14px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.bold-grey {
+    color: #5c636d;
+    font-weight: 700;
+}
+
+.time {
+    color: #959ba7;
+}
+
+.unread::after {
+    content: url(./assets/images/dot.svg);
+    margin-left: 7px;
+}
+
+.unread-bg {
+    background: #f6fafd;
+}
+
+.blue-text {
+    color: #002365;
+    font-weight: 700;
+}
